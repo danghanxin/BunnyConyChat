@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7F1D74AD69991EC8B1E0EC6 /* libPods-ConnyBuny.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF57BF6E6E080C5C779539 /* libPods-ConnyBuny.a */; };
+		C82FDD3A209AF3DF009ACC8C /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82FDD39209AF3DF009ACC8C /* ChatTableViewCell.swift */; };
+		C82FDD3C209BEFD3009ACC8C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82FDD3B209BEFD3009ACC8C /* ChatViewController.swift */; };
+		C82FDD46209C60F7009ACC8C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82FDD45209C60F7009ACC8C /* Common.swift */; };
+		C82FDD48209C635E009ACC8C /* ChatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82FDD47209C635E009ACC8C /* ChatPresenter.swift */; };
+		C82FDD4A209C636F009ACC8C /* ChatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82FDD49209C636F009ACC8C /* ChatInteractor.swift */; };
 		C8F3181A2090556400734A22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F318192090556400734A22 /* AppDelegate.swift */; };
 		C8F3181C2090556400734A22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F3181B2090556400734A22 /* ViewController.swift */; };
 		C8F3181F2090556400734A22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F3181D2090556400734A22 /* Main.storyboard */; };
@@ -14,6 +20,7 @@
 		C8F318242090556600734A22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F318222090556600734A22 /* LaunchScreen.storyboard */; };
 		C8F3182F2090556600734A22 /* ConnyBunyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F3182E2090556600734A22 /* ConnyBunyTests.swift */; };
 		C8F3183A2090556700734A22 /* ConnyBunyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F318392090556700734A22 /* ConnyBunyUITests.swift */; };
+		C8F318492090565100734A22 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F318482090565100734A22 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		915B527602F16554BF79DD29 /* Pods-ConnyBuny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnyBuny.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConnyBuny/Pods-ConnyBuny.release.xcconfig"; sourceTree = "<group>"; };
+		91EF57BF6E6E080C5C779539 /* libPods-ConnyBuny.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConnyBuny.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82FDD39209AF3DF009ACC8C /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		C82FDD3B209BEFD3009ACC8C /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		C82FDD45209C60F7009ACC8C /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		C82FDD47209C635E009ACC8C /* ChatPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPresenter.swift; sourceTree = "<group>"; };
+		C82FDD49209C636F009ACC8C /* ChatInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInteractor.swift; sourceTree = "<group>"; };
 		C8F318162090556400734A22 /* ConnyBuny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnyBuny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F318192090556400734A22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8F3181B2090556400734A22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,8 @@
 		C8F318352090556700734A22 /* ConnyBunyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnyBunyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F318392090556700734A22 /* ConnyBunyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnyBunyUITests.swift; sourceTree = "<group>"; };
 		C8F3183B2090556700734A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F318482090565100734A22 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D884B92031131C928030902B /* Pods-ConnyBuny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnyBuny.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConnyBuny/Pods-ConnyBuny.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7F1D74AD69991EC8B1E0EC6 /* libPods-ConnyBuny.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04D8581A37614A5998E3753F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D884B92031131C928030902B /* Pods-ConnyBuny.debug.xcconfig */,
+				915B527602F16554BF79DD29 /* Pods-ConnyBuny.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2468671E901CDA4B5E9BC7A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91EF57BF6E6E080C5C779539 /* libPods-ConnyBuny.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C82FDD38209AF3AE009ACC8C /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				C82FDD45209C60F7009ACC8C /* Common.swift */,
+				C82FDD39209AF3DF009ACC8C /* ChatTableViewCell.swift */,
+				C82FDD3B209BEFD3009ACC8C /* ChatViewController.swift */,
+				C82FDD47209C635E009ACC8C /* ChatPresenter.swift */,
+				C82FDD49209C636F009ACC8C /* ChatInteractor.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
 		C8F3180D2090556400734A22 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				C8F3182D2090556600734A22 /* ConnyBunyTests */,
 				C8F318382090556700734A22 /* ConnyBunyUITests */,
 				C8F318172090556400734A22 /* Products */,
+				04D8581A37614A5998E3753F /* Pods */,
+				2468671E901CDA4B5E9BC7A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +145,8 @@
 		C8F318182090556400734A22 /* ConnyBuny */ = {
 			isa = PBXGroup;
 			children = (
+				C82FDD38209AF3AE009ACC8C /* Chat */,
+				C8F318472090561100734A22 /* LogIn */,
 				C8F318192090556400734A22 /* AppDelegate.swift */,
 				C8F3181B2090556400734A22 /* ViewController.swift */,
 				C8F3181D2090556400734A22 /* Main.storyboard */,
@@ -125,6 +175,14 @@
 			path = ConnyBunyUITests;
 			sourceTree = "<group>";
 		};
+		C8F318472090561100734A22 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				C8F318482090565100734A22 /* LoginViewController.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8F3183E2090556700734A22 /* Build configuration list for PBXNativeTarget "ConnyBuny" */;
 			buildPhases = (
+				ECF657815D0A4724BE924021 /* [CP] Check Pods Manifest.lock */,
 				C8F318122090556400734A22 /* Sources */,
 				C8F318132090556400734A22 /* Frameworks */,
 				C8F318142090556400734A22 /* Resources */,
@@ -251,13 +310,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ECF657815D0A4724BE924021 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConnyBuny-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C8F318122090556400734A22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8F318492090565100734A22 /* LoginViewController.swift in Sources */,
+				C82FDD3A209AF3DF009ACC8C /* ChatTableViewCell.swift in Sources */,
+				C82FDD4A209C636F009ACC8C /* ChatInteractor.swift in Sources */,
 				C8F3181C2090556400734A22 /* ViewController.swift in Sources */,
+				C82FDD3C209BEFD3009ACC8C /* ChatViewController.swift in Sources */,
+				C82FDD46209C60F7009ACC8C /* Common.swift in Sources */,
 				C8F3181A2090556400734A22 /* AppDelegate.swift in Sources */,
+				C82FDD48209C635E009ACC8C /* ChatPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +401,7 @@
 		C8F3183C2090556700734A22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALTERNATE_OWNER = danghanxin;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -363,6 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_OWNER = danghanxin;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -375,6 +463,7 @@
 		C8F3183D2090556700734A22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALTERNATE_OWNER = danghanxin;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -417,6 +506,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_OWNER = danghanxin;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -428,10 +518,15 @@
 		};
 		C8F3183F2090556700734A22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D884B92031131C928030902B /* Pods-ConnyBuny.debug.xcconfig */;
 			buildSettings = {
+				ALTERNATE_OWNER = danghanxin;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ConnyBuny/Info.plist;
+				INSTALL_OWNER = danghanxin;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,10 +540,15 @@
 		};
 		C8F318402090556700734A22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915B527602F16554BF79DD29 /* Pods-ConnyBuny.release.xcconfig */;
 			buildSettings = {
+				ALTERNATE_OWNER = danghanxin;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ConnyBuny/Info.plist;
+				INSTALL_OWNER = danghanxin;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
